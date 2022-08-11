@@ -1,11 +1,12 @@
 .form{
-    margin-left: 18%;
+    
+  position: relative;
+  
 }
 
 .search-form{
-    
-    position:relative;
-    width: 172%;
+    text-align: right;
+    width: 200%;
     padding-right: 1em;
     padding-left: 1em;
     height: 1.6rem;
@@ -19,8 +20,16 @@
 }
 
 .search-btn{
-    position:absolute;
 
+    position: absolute;
+    align-items: baseline;
+
+    top: 0em;
+    margin-top: 1em;
+    
+
+
+    align-items:center;
     width: 2.5rem;
     height: 1.8rem;
     border-radius: 0.5rem;
@@ -31,7 +40,7 @@
     transition: 0.3s;
     outline: none;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-    margin-top: 1em;
+    
 }
 
 .search-btn:hover {
