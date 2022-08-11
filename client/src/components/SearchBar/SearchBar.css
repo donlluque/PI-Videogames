@@ -1,12 +1,13 @@
 .form{
-    
+
   position: relative;
+  width: 220%;
   
 }
 
 .search-form{
-    text-align: right;
-    width: 200%;
+
+    width: 70%;
     padding-right: 1em;
     padding-left: 1em;
     height: 1.6rem;
@@ -20,14 +21,6 @@
 }
 
 .search-btn{
-
-    position: absolute;
-    align-items: baseline;
-
-    top: 0em;
-    margin-top: 1em;
-    
-
 
     align-items:center;
     width: 2.5rem;
