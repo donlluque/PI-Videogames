@@ -1,0 +1,75 @@
+.form-container{
+    position:relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -28em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+    width: 35em;
+    height: 36em;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    border-radius: 1em;
+    background: radial-gradient(circle, rgba(247,97,3,1) 60%, rgba(253,48,29,1) 80%);
+}
+
+.create-title{
+    font-weight: 700;
+    color:aliceblue;
+    margin-left: 1em;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.create-button{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-left: 2em;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+}
+
+.resetbutton:hover {
+    background-color: rgb(241, 72, 10);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.error{
+
+    color: rgb(255, 1, 1);
+    filter: drop-shadow(0 2px 9px rgba(255, 255, 255, 0.7));
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: -1rem;
+}
+
+.filters-form{
+    width: 11rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin: 0.1em;
+    
+}
+
+.filters-form:hover {
+    background-color: rgb(241, 72, 10);
+    color: white;
+    transform: translateY(-1px);
+}

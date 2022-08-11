@@ -1,0 +1,47 @@
+.all-container{
+
+    
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+
+    padding: 1em;
+    margin-left: 7%;
+    margin-right: 13%;
+    width: 80%;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.541);
+
+    transition: 0.3s;
+    outline: none;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+    margin-top: 1em;
+    
+    
+
+}
+
+.filters-container{
+
+    width: 10rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    
+}
+
+.filters-container:hover {
+
+    background-color: rgb(241, 72, 10);
+    color: white;
+    transform: translateY(-1px);
+
+}

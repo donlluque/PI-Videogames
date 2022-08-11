@@ -1,0 +1,53 @@
+.body {
+    background: url('../../img/landing.gif') no-repeat bottom right fixed;
+    display: flex;
+    width:100vw;
+    height:100vh; 
+    background-size: cover;
+    flex-direction: column;  
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 5rem;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.h2{
+    position: absolute; bottom: 2rem; right: 6.5em;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.button {
+    margin-top: -2rem;
+    margin-left: 2.5rem;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    
+}
+
+.button:hover {
+    background-color: rgb(214, 179, 39);;
+    color: rgb(0, 0, 0);
+    transform: translateY(-1px);
+}

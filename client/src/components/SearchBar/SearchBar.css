@@ -1,0 +1,42 @@
+.form{
+    margin-left: 18%;
+}
+
+.search-form{
+    
+    position:relative;
+    width: 172%;
+    padding-right: 1em;
+    padding-left: 1em;
+    height: 1.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-top: 1em;
+}
+
+.search-btn{
+    position:absolute;
+
+    width: 2.5rem;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-top: 1em;
+}
+
+.search-btn:hover {
+    background-color: rgb(241, 72, 10);
+    color: white;
+    transform: translateY(-1px);
+}
+

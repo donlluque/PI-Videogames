@@ -1,0 +1,62 @@
+.cardGrid{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(21.8em, 20em));
+    grid-column-gap: 2rem;
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 13%;
+    
+}
+
+.container-buttons{
+
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    margin-left: 7%;
+    margin-right: 13%;
+    width: 80%;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.541);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.paginated-buttons{
+    
+    width: 5rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+}
+
+.paginated-buttons:hover {
+
+    background-color: rgb(241, 72, 10);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.text-link{
+    
+    text-decoration: none;
+}

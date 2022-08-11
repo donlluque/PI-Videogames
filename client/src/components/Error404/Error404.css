@@ -1,0 +1,10 @@
+.error404{
+    background: url('../../img/error404.gif') no-repeat center center fixed;
+    display:flex;
+    width:auto;
+    height:100vh; 
+    background-size: cover;
+    flex-direction: row;
+    justify-items: left;
+
+}

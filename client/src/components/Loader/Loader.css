@@ -1,0 +1,12 @@
+.loader-container img {
+    background: no-repeat bottom right fixed;
+    display: grid;
+    width:100vw;
+    height:100vh; 
+    background-size: cover;
+    flex-direction: column;  
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
